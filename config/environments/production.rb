@@ -80,5 +80,5 @@ Pinteresting::Application.configure do
 
   #Note to set this to your actual host
   #Required for heroku
-  config.action_mailer.default_url_options = { host: => 'http://angel-test-app.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: => 'https://angel-test-app.herokuapp.com' }
 end
